@@ -1,0 +1,130 @@
+.container-tarjeta {
+    background-color: cornflowerblue;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 10px;
+
+
+}
+
+.sobre-nosotros {
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+        width: 75%;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 75%;
+    }
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 8px 12px 17px -2px rgba(0,0,0,0.63);
+-webkit-box-shadow: 8px 12px 17px -2px rgba(0,0,0,0.63);
+-moz-box-shadow: 8px 12px 17px -2px rgba(0,0,0,0.63);
+    transition: 1s;
+    &:hover{
+        transform: translate(-65px, 80px);
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: black;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    ul {
+        li {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            margin-top: 5px;
+        }
+    }
+}
+
+div {
+    margin-top: 20px;
+}
+
+.ayuda {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    div {
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+    }
+    div {
+        a {
+            text-decoration: none;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            display: block;
+            margin: 10px auto 0;
+            width: fit-content;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.comment-section {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    flex-direction: column;
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    #comment-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            resize: vertical;
+    }
+    .terminos{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        input {
+            margin-right: 10px;
+        }
+    }
+    #entrega-button {
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+            padding: 10 px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 200px;
+    }
+}
