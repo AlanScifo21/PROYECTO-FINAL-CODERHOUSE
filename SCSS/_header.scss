@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e95316 ;
+    align-items: center;
+    img {
+        max-width: 150px;
+
+    }
+     nav {
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 20px;
+            li {
+                margin: 5px;
+                a {
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+                    &:hover {
+                        color: #e95316;
+                        margin: 5px;
+                    transition: 1s;
+                    }
+                }
+            }
+        }
+     }
+
+}

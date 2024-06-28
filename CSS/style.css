@@ -1,17 +1,96 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import "automoviles,scss";
- *   |         ^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"automoviles,scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 6:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: black;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  display: block;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.grid-container .grid-item {
+  text-align: center;
+}
+.grid-container .grid-item img {
+  width: 50%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.lorem1 {
+  text-align: center;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.grid-container2 .grid-item {
+  text-align: center;
+}
+.grid-container2 .grid-item img {
+  width: 50%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: cornflowerblue;
+  align-items: center;
+}
+header img {
+  max-width: 150px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: black;
+  margin: 5px;
+  transition: 1s;
+}
+
+footer {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer img {
+  max-width: 150px;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
